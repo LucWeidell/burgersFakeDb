@@ -24,8 +24,6 @@ export const fakeBurgersDb = {
       price: 30,
       options: ['small', 'medium', 'large'],
       ingredients: ['caviar']
-    }, {
-
     }
   ]
 }
