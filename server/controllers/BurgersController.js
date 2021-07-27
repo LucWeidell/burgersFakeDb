@@ -41,7 +41,7 @@ export class BurgersController extends BaseController {
 
   edit(req, res, next) {
     try {
-      req.param.combo = req.body
+      req.body.combo = req.params.combo
       const burger = burgersService.edit(req.params.combo)
       res.send(burger)
     } catch (error) {
